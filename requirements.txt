@@ -1,0 +1,16 @@
+# Prefer CPU PyTorch wheels; allow fallback to PyPI for remaining packages.
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+numpy
+pandas
+scipy
+networkx
+matplotlib
+scikit-learn
+torch
+torch_geometric
+gym
+pyyaml
+tqdm
+numba
+GraphRicciCurvature

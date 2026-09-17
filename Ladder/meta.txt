@@ -1,0 +1,16 @@
+topology=ladder
+source_task=ecc
+source_split=test
+source_index=1655
+num_nodes=140
+num_edges_directed=352
+num_edges_undirected=176
+x_shape=(140, 2)
+y_raw_shape=(140, 3)
+max_bins=10
+effective_bins=3
+min_nodes_per_class=10
+quantile_edges=36.00000000,36.00000000,37.00000000,38.00000000,39.00000000
+label_1=count:46,min:36.00000000,max:36.00000000,mean:36.00000000,std:0.00000000
+label_2=count:49,min:37.00000000,max:37.00000000,mean:37.00000000,std:0.00000000
+label_3=count:45,min:38.00000000,max:39.00000000,mean:38.24444444,std:0.42975732

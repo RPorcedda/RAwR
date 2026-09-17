@@ -1,0 +1,17 @@
+topology=line
+source_task=ecc
+source_split=train
+source_index=200
+num_nodes=48
+num_edges_directed=94
+num_edges_undirected=47
+x_shape=(48, 2)
+y_raw_shape=(48, 3)
+max_bins=10
+effective_bins=4
+min_nodes_per_class=10
+quantile_edges=20.00000000,25.00000000,28.00000000,34.00000000,39.00000000
+label_0=count:10,min:20.00000000,max:24.00000000,mean:22.00000000,std:1.41421356
+label_1=count:12,min:25.00000000,max:27.00000000,mean:26.16666667,std:0.68718427
+label_2=count:13,min:28.00000000,max:33.00000000,mean:30.61538462,std:1.68880757
+label_3=count:13,min:34.00000000,max:39.00000000,mean:36.69230769,std:1.77090222
